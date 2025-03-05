@@ -1,0 +1,142 @@
+
+/* General Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #ffeb3b;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 10px 20px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.95em;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr.highlight {
+    background-color: #ffeb3b;
+}
+
+/* Image Styling with Hover Effects */
+.image-section img, section img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 40%; /* Adjust the size to a consistent percentage of the container */
+    height: 10%; /* Maintain aspect ratio */
+    border-radius: 10px;
+    border: 3px solid #ddd;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.image-section img:hover, section img:hover {
+    transform: scale(1.05);
+    border-color: #ffeb3b;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Career Comparison Styling Images */
+.career-comparison {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.career-img {
+    max-width: 190px;
+    height: auto;
+    margin-right: 10px;
+}
+
